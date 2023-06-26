@@ -146,6 +146,9 @@ input:focus{
     background: #6c757d;
     color: #ffffff;
 }
+.views{
+    color: #fff;
+}
 
 .media-card {
     width: 300px;
@@ -157,7 +160,7 @@ input:focus{
     border-radius: 0.55rem;
 }
 .media-card p a{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
