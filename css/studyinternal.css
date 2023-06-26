@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.scrolling {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.media-icon {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    border-radius: 0.55rem;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.media-icon p a{
+    color: black;
+    text-decoration: none;
+}
+.scrolling::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar a.active {
+    background-color: #00519a;
+    color: white;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar a:hover{
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    color: #fff;
+}
+.news-contentmain a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.news-bdy  a{
+    color: #000;
+    text-decoration: none;
+}
+.btn{
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    font-weight: 600;
+   
+}
+
+.btn:hover{
+    background-color: #336ea1;
+}
+.news_box h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.22;
+    margin-top: 5px;
+}
+.author-back {
+    background: #ececec;
+    padding: 10px 10px 10px 30px;
+    font-size: 10px !important;
+}
+.autho_img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.news_box a {
+    color: #0056b3;
+    text-decoration: none;
+    border: none;
+}
+.news_box h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.22;
+    margin-top: 5px;
+}
+.news_box li:before {
+    font-family: "FontAwesome";
+    font-size: 17px;
+    color: #23bf5d;
+    content: '\f058';
+    margin: 0 5px 0 -20px;
+}
+.news_box ul{
+    list-style: none;
+}
+.bg-discount {
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    margin: 30px 0;
+    line-height: 1.3;
+    border-radius: 0.55rem;
+}
+.bg-discount h1 {
+    font-weight: 700;
+    color: #fff !important;
+}
+.bg-discount p {
+    margin-top: 0;
+    color: #FFEE00;
+    font-size: 20px;
+}
+.badge{
+    font-weight: 500;
+}
+.social-share-post .fa {
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.social-share-post .fa-facebook {
+    background: #3B5998;
+    color: #ffffff;
+}
+.social-share-post .fa-twitter {
+    background: #55ACEE;
+    color: #ffffff;
+}
+.social-share-post .fa-linkedin {
+    background: #007bb5;
+    color: #ffffff;
+}
+.social-share-post .fa-link {
+    background: #6c757d;
+    color: #ffffff;
+}
+
+.media-card {
+    width: 300px;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    /* background: rgb(173, 208, 238); */
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    border-radius: 0.55rem;
+}
+.media-card p a{
+    color: black;
+    text-decoration: none;
+}
+
+.media-card p{
+    white-space: normal;
+}
+#previous {
+    right: 345px;
+    font-size: 30px;
+    color: #4646464a;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
+
+#next {
+    font-size: 30px;
+    color: #4646464a;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+h2{
+    font-weight: 700;
+}
+.badge{
+    padding: 0.5rem 0.5rem;
+}
+
+textarea:focus{
+    box-shadow: none !important;
+}
+@media screen and (max-width: 570px) {
+    .bg-discount p {
+        font-size: 14px;
+
+    }
+    .bg-discount h1{
+        font-size: 20px;
+    }
+    #previous {
+        right: 75px;
+    }
+}
+@media screen and (min-width: 576px)and (max-width: 992px)  {
+    #previous {
+        right: 100px;
+    }
+}
+@media screen and (min-width: 993px)and (max-width: 1200px)  {
+    #previous {
+        right: 100px;
+    }
+}
+
+
+
+
+
+
+
